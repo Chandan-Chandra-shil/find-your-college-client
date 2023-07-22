@@ -1,4 +1,4 @@
-import React, { cloneElement, useEffect, useState } from 'react';
+import  {  useEffect, useState } from 'react';
 import SearchBar from '../SearchBar/SearchBar';
 
 const CollegeCard = () => {
@@ -11,7 +11,7 @@ const CollegeCard = () => {
     .then(data=>setColleges(data))
   },[])
   return (
-    <section className="md:mx-0 mx-4">
+    <section className="md:mx-4 lg:mx-0 mx-4">
       <SearchBar />
       <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-3">
         {colleges.map((college) => (

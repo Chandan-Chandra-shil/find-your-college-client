@@ -1,7 +1,8 @@
 // Navbar.js
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -34,6 +35,12 @@ const Navbar = () => {
       >
         My College
       </Link>
+      <Link
+        to="/login"
+        className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
+      >
+        Login
+      </Link>
     </>
   );
 
@@ -61,6 +68,7 @@ const Navbar = () => {
 
         {/* Desktop/Tablet Menu */}
         <div className="hidden md:flex space-x-4">
+        
           {navItems}
           {/* Add more navigation items as needed */}
         </div>

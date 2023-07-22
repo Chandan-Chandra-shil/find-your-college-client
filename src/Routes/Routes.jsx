@@ -4,6 +4,9 @@ import Home from "../Pages/Home/Home/Home";
 import Colleges from "../Pages/Colleges/Colleges";
 import Admission from "../Pages/Admission/Admission";
 import MyCollege from "../Pages/MyCollege/MyCollege";
+import Login from "../Pages/Shared/Footer/Login/Login";
+import SignUp from "../Pages/Shared/SignUp/SignUp";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 
 
@@ -11,6 +14,7 @@ export const route = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement:<ErrorPage/>,
     children: [
       {
         path: "/",
@@ -27,6 +31,14 @@ export const route = createBrowserRouter([
       {
         path: "/my-college",
         element:<MyCollege/>
+      },
+      {
+        path: "/login",
+        element:<Login/>
+      },
+      {
+        path:"/singUp",
+        element:<SignUp/>
       }
     ]
   }
