@@ -12,25 +12,25 @@ const Navbar = () => {
     <>
       <Link
         to="/"
-        className="block font-semibold text-white hover:text-blue-200 transition duration-300 my-2"
+        className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
       >
         Home
       </Link>
       <Link
         to="/colleges"
-        className="block font-semibold text-white hover:text-blue-200 transition duration-300 my-2"
+        className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
       >
         Colleges
       </Link>
       <Link
         to="/admission"
-        className="block font-semibold text-white hover:text-blue-200 transition duration-300 my-2"
+        className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
       >
         Admission
       </Link>
       <Link
         to="/my-college"
-        className="block font-semibold text-white hover:text-blue-200 transition duration-300 my-2"
+        className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
       >
         My College
       </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className=" bg-blue-400 p-4">
+    <nav className=" bg-green-700 p-4">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="text-white font-bold text-xl">
           Find Your College
@@ -67,7 +67,7 @@ const Navbar = () => {
 
         {/* Mobile Menu (Dropdown) */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-16   bg-blue-500 p-2 w-8/12">
+          <div className="md:hidden absolute top-16   bg-green-500 p-2 w-8/12">
             {navItems}
             {/* Add more navigation items as needed */}
           </div>

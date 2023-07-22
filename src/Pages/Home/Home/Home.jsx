@@ -1,10 +1,13 @@
 import React from 'react';
-import SearchBar from './SearchBar/SearchBar';
+
+import CollegeCard from './CollegeCard/CollegeCard';
+import CollegeGallery from './CollegeGallery/CollegeGallery';
 
 const Home = () => {
   return (
     <div>
-      <SearchBar/>
+      <CollegeCard />
+      <CollegeGallery/>
     </div>
   );
 };

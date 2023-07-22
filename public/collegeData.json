@@ -1,0 +1,33 @@
+[
+  {
+    "_id": "643010e0f5a7e52ce1e8fa65",
+    "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
+    "collegeName": "Ananda Mohan College",
+    "admissionDates": "22-07-2023",
+    "events" : "Annual Fest, Science Expo",
+    "researchHistory" : "",
+    "sports" : "Football,Swimming"
+   
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fa67",
+    "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
+    "collegeName": "Ananda Mohan College",
+    "admissionDates": "22-07-2023",
+    "events" : "Annual Fest, Science Expo",
+    "researchHistory" : "",
+    "sports" : "Football,Swimming"
+   
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fa68",
+    "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
+    "collegeName": "Ananda Mohan College",
+    "admissionDates": "22-07-2023",
+    "events" : "Annual Fest, Science Expo",
+    "researchHistory" : "",
+    "sports" : "Football,Swimming"
+   
+  }
+  
+]
