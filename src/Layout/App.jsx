@@ -6,10 +6,12 @@ function App() {
   return (
     <>
       <Header />
-      <Outlet/>
-      <Footer/>
+      
+        <Outlet />
+     
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App

@@ -4,43 +4,47 @@ import Home from "../Pages/Home/Home/Home";
 import Colleges from "../Pages/Colleges/Colleges";
 import Admission from "../Pages/Admission/Admission";
 import MyCollege from "../Pages/MyCollege/MyCollege";
-import Login from "../Pages/Shared/Footer/Login/Login";
+
 import SignUp from "../Pages/Shared/SignUp/SignUp";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-
-
+import Login from "../Pages/Shared/Footer/Login/Login";
+import CollegeDetails from "../Pages/Home/Home/CollegeCard/CollegeDetails/CollegeDetails";
 
 export const route = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement:<ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        element:<Home/>
+        element: <Home />,
       },
       {
         path: "/colleges",
-        element:<Colleges/>
+        element: <Colleges />,
       },
       {
         path: "/admission",
-        element:<Admission/>
+        element: <Admission />,
       },
       {
         path: "/my-college",
-        element:<MyCollege/>
+        element: <MyCollege />,
       },
       {
         path: "/login",
-        element:<Login/>
+        element: <Login />,
       },
       {
-        path:"/singUp",
-        element:<SignUp/>
+        path: "/singUp",
+        element: <SignUp />,
+      },
+      {
+        path: '/college-details',
+        element: <CollegeDetails />
+        
       }
-    ]
-  }
-])
-
+    ],
+  },
+]);

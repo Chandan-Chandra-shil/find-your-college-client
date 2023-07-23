@@ -1,33 +1,435 @@
 [
+
   {
     "_id": "643010e0f5a7e52ce1e8fa65",
     "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
     "collegeName": "Ananda Mohan College",
-    "admissionDates": "22-07-2023",
-    "events" : "Annual Fest, Science Expo",
-    "researchHistory" : "",
-    "sports" : "Football,Swimming"
-   
+    "admissionProcess": "The admission process at ABC University involves an online application and an entrance examination. Prospective students are required to submit their applications online through our official website.",
+    "admissionDates": "August 15, 2023",
+    "events": [
+      {
+        "name": "Annual College Fest",
+        "date": "September 25, 2023",
+        "theme": "Celebrating Diversity",
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+      },
+      {
+        "name": "Tech Expo",
+        "date": "November 5, 2023",
+        "theme": "Innovation in Technology",
+        "description": "Witness the brilliance of our students and faculty as they showcase cutting-edge technological innovations and projects. Engage in interactive exhibits and learn about the latest advancements in technology."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Cricket"
+    ],
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "sports": [
+      {
+        "category": "Football",
+        "teamName": "ABC Lions",
+        "captain": "John Doe",
+        "achievements": "Our football team has displayed exceptional prowess on the field, securing the Intercollegiate Football Championship five times. Their dedication to teamwork and perseverance is commendable."
+      },
+      {
+        "category": "Basketball",
+        "teamName": "ABC Eagles",
+        "captain": "Jane Smith",
+        "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
+      },
+      {
+        "category": "Swimming",
+        "teamName": "ABC Sharks",
+        "captain": "Mike Johnson",
+        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
+      },
+      {
+        "category": "Tennis",
+        "teamName": "ABC Aces",
+        "captain": "Emily Williams",
+        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
+      },
+      {
+        "category": "Cricket",
+        "teamName": "ABC Warriors",
+        "captain": "David Anderson",
+        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
+      }
+    ]
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fa66",
+    "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
+    "collegeName": "Ananda Mohan College",
+    "admissionProcess": "The admission process at ABC University involves an online application and an entrance examination. Prospective students are required to submit their applications online through our official website.",
+    "admissionDates": "August 15, 2023",
+    "events": [
+      {
+        "name": "Annual College Fest",
+        "date": "September 25, 2023",
+        "theme": "Celebrating Diversity",
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+      },
+      {
+        "name": "Tech Expo",
+        "date": "November 5, 2023",
+        "theme": "Innovation in Technology",
+        "description": "Witness the brilliance of our students and faculty as they showcase cutting-edge technological innovations and projects. Engage in interactive exhibits and learn about the latest advancements in technology."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Cricket"
+    ],
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "sports": [
+      {
+        "category": "Football",
+        "teamName": "ABC Lions",
+        "captain": "John Doe",
+        "achievements": "Our football team has displayed exceptional prowess on the field, securing the Intercollegiate Football Championship five times. Their dedication to teamwork and perseverance is commendable."
+      },
+      {
+        "category": "Basketball",
+        "teamName": "ABC Eagles",
+        "captain": "Jane Smith",
+        "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
+      },
+      {
+        "category": "Swimming",
+        "teamName": "ABC Sharks",
+        "captain": "Mike Johnson",
+        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
+      },
+      {
+        "category": "Tennis",
+        "teamName": "ABC Aces",
+        "captain": "Emily Williams",
+        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
+      },
+      {
+        "category": "Cricket",
+        "teamName": "ABC Warriors",
+        "captain": "David Anderson",
+        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
+      }
+    ]
   },
   {
     "_id": "643010e0f5a7e52ce1e8fa67",
     "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
     "collegeName": "Ananda Mohan College",
-    "admissionDates": "22-07-2023",
-    "events" : "Annual Fest, Science Expo",
-    "researchHistory" : "",
-    "sports" : "Football,Swimming"
-   
+    "admissionProcess": "The admission process at ABC University involves an online application and an entrance examination. Prospective students are required to submit their applications online through our official website.",
+    "admissionDates": "August 15, 2023",
+    "events": [
+      {
+        "name": "Annual College Fest",
+        "date": "September 25, 2023",
+        "theme": "Celebrating Diversity",
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+      },
+      {
+        "name": "Tech Expo",
+        "date": "November 5, 2023",
+        "theme": "Innovation in Technology",
+        "description": "Witness the brilliance of our students and faculty as they showcase cutting-edge technological innovations and projects. Engage in interactive exhibits and learn about the latest advancements in technology."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Cricket"
+    ],
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "sports": [
+      {
+        "category": "Football",
+        "teamName": "ABC Lions",
+        "captain": "John Doe",
+        "achievements": "Our football team has displayed exceptional prowess on the field, securing the Intercollegiate Football Championship five times. Their dedication to teamwork and perseverance is commendable."
+      },
+      {
+        "category": "Basketball",
+        "teamName": "ABC Eagles",
+        "captain": "Jane Smith",
+        "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
+      },
+      {
+        "category": "Swimming",
+        "teamName": "ABC Sharks",
+        "captain": "Mike Johnson",
+        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
+      },
+      {
+        "category": "Tennis",
+        "teamName": "ABC Aces",
+        "captain": "Emily Williams",
+        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
+      },
+      {
+        "category": "Cricket",
+        "teamName": "ABC Warriors",
+        "captain": "David Anderson",
+        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
+      }
+    ]
   },
   {
     "_id": "643010e0f5a7e52ce1e8fa68",
     "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
     "collegeName": "Ananda Mohan College",
-    "admissionDates": "22-07-2023",
-    "events" : "Annual Fest, Science Expo",
-    "researchHistory" : "",
-    "sports" : "Football,Swimming"
-   
+    "admissionProcess": "The admission process at ABC University involves an online application and an entrance examination. Prospective students are required to submit their applications online through our official website.",
+    "admissionDates": {
+      "applicationDeadline": "August 15, 2023",
+      "entranceExamDate": "September 10, 2023"
+    },
+    "events": [
+      {
+        "name": "Annual College Fest",
+        "date": "September 25, 2023",
+        "theme": "Celebrating Diversity",
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+      },
+      {
+        "name": "Tech Expo",
+        "date": "November 5, 2023",
+        "theme": "Innovation in Technology",
+        "description": "Witness the brilliance of our students and faculty as they showcase cutting-edge technological innovations and projects. Engage in interactive exhibits and learn about the latest advancements in technology."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Cricket"
+    ],
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "sports": [
+      {
+        "category": "Football",
+        "teamName": "ABC Lions",
+        "captain": "John Doe",
+        "achievements": "Our football team has displayed exceptional prowess on the field, securing the Intercollegiate Football Championship five times. Their dedication to teamwork and perseverance is commendable."
+      },
+      {
+        "category": "Basketball",
+        "teamName": "ABC Eagles",
+        "captain": "Jane Smith",
+        "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
+      },
+      {
+        "category": "Swimming",
+        "teamName": "ABC Sharks",
+        "captain": "Mike Johnson",
+        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
+      },
+      {
+        "category": "Tennis",
+        "teamName": "ABC Aces",
+        "captain": "Emily Williams",
+        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
+      },
+      {
+        "category": "Cricket",
+        "teamName": "ABC Warriors",
+        "captain": "David Anderson",
+        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
+      }
+    ]
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fa68",
+    "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
+    "collegeName": "Ananda Mohan College",
+    "admissionProcess": "The admission process at ABC University involves an online application and an entrance examination. Prospective students are required to submit their applications online through our official website.",
+    "admissionDates": "August 15, 2023",
+    "events": [
+      {
+        "name": "Annual College Fest",
+        "date": "September 25, 2023",
+        "theme": "Celebrating Diversity",
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+      },
+      {
+        "name": "Tech Expo",
+        "date": "November 5, 2023",
+        "theme": "Innovation in Technology",
+        "description": "Witness the brilliance of our students and faculty as they showcase cutting-edge technological innovations and projects. Engage in interactive exhibits and learn about the latest advancements in technology."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Cricket"
+    ],
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "sports": [
+      {
+        "category": "Football",
+        "teamName": "ABC Lions",
+        "captain": "John Doe",
+        "achievements": "Our football team has displayed exceptional prowess on the field, securing the Intercollegiate Football Championship five times. Their dedication to teamwork and perseverance is commendable."
+      },
+      {
+        "category": "Basketball",
+        "teamName": "ABC Eagles",
+        "captain": "Jane Smith",
+        "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
+      },
+      {
+        "category": "Swimming",
+        "teamName": "ABC Sharks",
+        "captain": "Mike Johnson",
+        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
+      },
+      {
+        "category": "Tennis",
+        "teamName": "ABC Aces",
+        "captain": "Emily Williams",
+        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
+      },
+      {
+        "category": "Cricket",
+        "teamName": "ABC Warriors",
+        "captain": "David Anderson",
+        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
+      }
+    ]
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fa69",
+    "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
+    "collegeName": "Ananda Mohan College",
+    "admissionProcess": "The admission process at ABC University involves an online application and an entrance examination. Prospective students are required to submit their applications online through our official website.",
+    "admissionDates": "August 15, 2023",
+    "events": [
+      {
+        "name": "Annual College Fest",
+        "date": "September 25, 2023",
+        "theme": "Celebrating Diversity",
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+      },
+      {
+        "name": "Tech Expo",
+        "date": "November 5, 2023",
+        "theme": "Innovation in Technology",
+        "description": "Witness the brilliance of our students and faculty as they showcase cutting-edge technological innovations and projects. Engage in interactive exhibits and learn about the latest advancements in technology."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Cricket"
+    ],
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "sports": [
+      {
+        "category": "Football",
+        "teamName": "ABC Lions",
+        "captain": "John Doe",
+        "achievements": "Our football team has displayed exceptional prowess on the field, securing the Intercollegiate Football Championship five times. Their dedication to teamwork and perseverance is commendable."
+      },
+      {
+        "category": "Basketball",
+        "teamName": "ABC Eagles",
+        "captain": "Jane Smith",
+        "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
+      },
+      {
+        "category": "Swimming",
+        "teamName": "ABC Sharks",
+        "captain": "Mike Johnson",
+        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
+      },
+      {
+        "category": "Tennis",
+        "teamName": "ABC Aces",
+        "captain": "Emily Williams",
+        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
+      },
+      {
+        "category": "Cricket",
+        "teamName": "ABC Warriors",
+        "captain": "David Anderson",
+        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
+      }
+    ]
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fa70",
+    "collegeImage": "https://studybarta.com/wp-content/uploads/2021/12/top-colleges-in-mymensingh.jpg",
+    "collegeName": "Ananda Mohan College",
+    "admissionProcess": "The admission process at ABC University involves an online application and an entrance examination. Prospective students are required to submit their applications online through our official website.",
+    "admissionDates": "August 15, 2023",
+    "events": [
+      {
+        "name": "Annual College Fest",
+        "date": "September 25, 2023",
+        "theme": "Celebrating Diversity",
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+      },
+      {
+        "name": "Tech Expo",
+        "date": "November 5, 2023",
+        "theme": "Innovation in Technology",
+        "description": "Witness the brilliance of our students and faculty as they showcase cutting-edge technological innovations and projects. Engage in interactive exhibits and learn about the latest advancements in technology."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Cricket"
+    ],
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "sports": [
+      {
+        "category": "Football",
+        "teamName": "ABC Lions",
+        "captain": "John Doe",
+        "achievements": "Our football team has displayed exceptional prowess on the field, securing the Intercollegiate Football Championship five times. Their dedication to teamwork and perseverance is commendable."
+      },
+      {
+        "category": "Basketball",
+        "teamName": "ABC Eagles",
+        "captain": "Jane Smith",
+        "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
+      },
+      {
+        "category": "Swimming",
+        "teamName": "ABC Sharks",
+        "captain": "Mike Johnson",
+        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
+      },
+      {
+        "category": "Tennis",
+        "teamName": "ABC Aces",
+        "captain": "Emily Williams",
+        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
+      },
+      {
+        "category": "Cricket",
+        "teamName": "ABC Warriors",
+        "captain": "David Anderson",
+        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
+      }
+    ]
   }
+
   
 ]

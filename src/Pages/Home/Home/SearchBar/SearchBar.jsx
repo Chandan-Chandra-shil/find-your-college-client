@@ -7,9 +7,9 @@ const SearchBar = () => {
         <input
           type="text"
           placeholder="Type Your Favorite College..."
-          className="w-64 md:w-96 p-2 md:p-4 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="w-64 md:w-4/12 p-2 md:p-4 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-green-500"
         />
-        <button className="bg-green-500 text-white font-semibold p-2 md:p-4 rounded-r-md ml-1 focus:outline-none focus:ring-2 focus:ring-green-500">
+        <button className="bg-green-500 text-white font-semibold p-2  md:p-4 rounded-r-md ml-1 focus:outline-none focus:ring-2 focus:ring-green-500">
           Search
         </button>
       </div>

@@ -79,7 +79,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className=" bg-green-700 p-4">
+    <nav className="  bg-green-700 p-4">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="text-white font-bold text-xl">
           Find Your College

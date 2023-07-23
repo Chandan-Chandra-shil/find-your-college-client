@@ -1,16 +1,17 @@
 import Lottie from "lottie-react";
 import loginImage from "../../../../assets/login.json";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useRef } from "react";
 import { AuthContext } from "../../../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 const Login = () => {
-  const { logIn } = useContext(AuthContext);
- const location = useLocation();
- const navigate = useNavigate();
- const from = location.state?.from?.pathname || "/";
-// handle login 
-  
+  const { logIn, resetPassword } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const emailRef = useRef();
+  const from = location.state?.from?.pathname || "/";
+  // handle login
+
   const handleLogIn = (event) => {
     event.preventDefault();
 
@@ -37,6 +38,39 @@ const Login = () => {
       });
   };
 
+  const handleResetPassword = () => {
+    const email = emailRef.current.value;
+    if (!email) {
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Please provide your email address to reset password",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      return;
+    }
+    resetPassword(email)
+      .then(() => {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Please check your email !",
+          showConfirmButton: false,
+          timer: 3000,
+        });
+      })
+      .catch((err) => {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: `${err.message}`,
+          showConfirmButton: false,
+          timer: 1500,
+        });
+      });
+  };
+
   return (
     <div className="md:mt-36 mt-0">
       <div className=" md:flex ">
@@ -53,6 +87,7 @@ const Login = () => {
               <input
                 type="email"
                 name="email"
+                ref={emailRef}
                 placeholder="email"
                 className="input input-bordered"
               />
@@ -68,9 +103,12 @@ const Login = () => {
                 className="input input-bordered"
               />
               <label className="label">
-                <a href="#" className="label-text-alt link link-hover">
+                <button
+                  onClick={handleResetPassword}
+                  className=" btn-link text-green-600 link"
+                >
                   Forgot password?
-                </a>
+                </button>
               </label>
             </div>
             <div className="form-control mt-6">
