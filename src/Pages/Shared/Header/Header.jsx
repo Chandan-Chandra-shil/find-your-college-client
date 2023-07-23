@@ -1,10 +1,28 @@
 // Navbar.js
-import  { useState } from "react";
+import  { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
+import { AuthContext } from "../../../Provider/AuthProvider";
+import Swal from "sweetalert2";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { user, logOut } = useContext(AuthContext)
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+       Swal.fire({
+         position: "top-end",
+         icon: "success",
+         title: "Log Out Successfully",
+         showConfirmButton: false,
+         timer: 1500,
+       });
+      })
+      .catch((err) => {
+          console.log(err)
+      });
+  }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -35,12 +53,28 @@ const Navbar = () => {
       >
         My College
       </Link>
-      <Link
-        to="/login"
-        className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
-      >
-        Login
-      </Link>
+      {user ? (
+        <>
+          <Link
+           
+            className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
+          >
+          
+          </Link>
+          <button onClick={handleLogOut} className="btn btn-outline btn-info">
+            Log out
+          </button>
+        </>
+      ) : (
+        <>
+          <Link
+            to="/login"
+            className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
+          >
+            Login
+          </Link>
+        </>
+      )}
     </>
   );
 
