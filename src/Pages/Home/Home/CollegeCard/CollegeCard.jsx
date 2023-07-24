@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 const CollegeCard = () => {
   const [colleges, setColleges] = useState([]);
   
+
   useEffect(() => {
-    fetch("collegeData.json")
+    fetch("http://localhost:5000/colleges")
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);

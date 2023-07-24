@@ -41,10 +41,11 @@ export const route = createBrowserRouter([
         element: <SignUp />,
       },
       {
-        path: '/college-details',
-        element: <CollegeDetails />
-        
-      }
+        path: "/college-details/:id",
+        element: <CollegeDetails />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/college-details/${params.id}`),
+      },
     ],
   },
 ]);

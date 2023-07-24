@@ -1,20 +1,36 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import  { useEffect, useState } from 'react';
+import CollegesCard from './CollegesCard';
+
+
 
 const Colleges = () => {
 const [colleges, setColleges] = useState([]);
 console.log("text...", colleges);
 useEffect(() => {
-  fetch("collegeData.json")
+  fetch("http://localhost:5000/colleges")
     .then((res) => res.json())
     .then((data) => setColleges(data));
 }, []);
-
+ 
+ 
   return (
     <div className="md:mx-4 lg:mx-0 mx-4 my-container">
       <div></div>
-      <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-3">
-        {colleges.slice(0,3).map((college) => (
+      <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-4">
+      
+        {
+          colleges.map(college=><CollegesCard key={college._id} college={college}></CollegesCard>)
+        }
+      </div>
+    </div>
+  );
+};
+
+export default Colleges;
+
+ {
+   /*  {colleges.map((college) => (
+          
           <div key={college._id} className="card   bg-green-50  ">
             <figure>
               <img src={college.collegeImage} alt="Shoes" />
@@ -38,10 +54,5 @@ useEffect(() => {
               </div>
             </div>
           </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default Colleges;
+        ))} */
+ }
