@@ -109,7 +109,7 @@ const Navbar = () => {
 
         {/* Mobile Menu (Dropdown) */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-16   bg-green-500 p-2 w-8/12">
+          <div className="md:hidden absolute top-16 z-10   bg-green-700 ps-4 pb-8 rounded-md w-8/12">
             {navItems}
             {/* Add more navigation items as needed */}
           </div>

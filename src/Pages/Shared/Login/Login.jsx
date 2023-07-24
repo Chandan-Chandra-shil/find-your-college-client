@@ -1,8 +1,8 @@
 import Lottie from "lottie-react";
-import loginImage from "../../../../assets/login.json";
+import loginImage from "../../../assets/login.json";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useContext, useRef } from "react";
-import { AuthContext } from "../../../../Provider/AuthProvider";
+import { AuthContext } from "../../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 const Login = () => {
   const { logIn, resetPassword } = useContext(AuthContext);

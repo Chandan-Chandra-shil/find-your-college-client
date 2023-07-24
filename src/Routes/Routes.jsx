@@ -7,7 +7,7 @@ import MyCollege from "../Pages/MyCollege/MyCollege";
 
 import SignUp from "../Pages/Shared/SignUp/SignUp";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-import Login from "../Pages/Shared/Footer/Login/Login";
+import Login from "../Pages/Shared/Login/Login";
 import CollegeDetails from "../Pages/Home/Home/CollegeCard/CollegeDetails/CollegeDetails";
 
 export const route = createBrowserRouter([

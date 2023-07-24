@@ -31,7 +31,7 @@ const CollegeCard = () => {
 
               <div className="text-end mb-2 mr-2 ">
                 <Link to={`/college-details/${college._id}`}>
-                  <button className="mt-5 hover:border-b-4 hover:border-green-900 rounded-md font-semibold hover:text-white  bg-green-400 px-8 py-1">
+                  <button className="mt-5 hover:border-b-4 hover:border-green-500 rounded-md font-semibold hover:text-white bg-red-500 text-white hover:bg-red-600   px-8 py-1">
                     Details
                   </button>
                 </Link>
