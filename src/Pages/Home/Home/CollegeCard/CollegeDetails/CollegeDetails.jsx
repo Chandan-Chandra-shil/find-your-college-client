@@ -8,7 +8,6 @@ const CollegeDetails = () => {
     collegeImage,
     collegeName,
     admissionProcess,
-    events,
     researchHistory,
     sportsCategories,
   } = data || ""
