@@ -13,7 +13,7 @@ const Colleges = () => {
   }, []);
 
   return (
-    <div className="md:mx-4 lg:mx-0 mx-4 my-container">
+    <div className="md:mx-4 lg:mx-0 mx-4 my-container my-12">
       <div></div>
       <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-4">
         {colleges.map((college) => (

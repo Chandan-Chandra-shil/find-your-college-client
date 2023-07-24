@@ -17,7 +17,7 @@ const CollegeDetails = () => {
       <div className="flex justify-center items-center">
         <img className="rounded-md" src={collegeImage} alt="" />
       </div>
-      <h2 className="text-center text-4xl "> College Name : {collegeName}</h2>
+      <h2 className="text-center md:text-4xl text-2xl my-2 ">{collegeName}</h2>
       <div>
         <h4 className="text-center text-xl">
           Admission Process : {admissionProcess}

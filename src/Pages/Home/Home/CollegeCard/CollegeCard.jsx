@@ -26,8 +26,13 @@ const CollegeCard = () => {
               <h2 className="font-semibold  text-xl">
                 Admission Date : {college.admissionDates}
               </h2>
-              <h2 className="text-xl">Events:{college.events.length} </h2>
-              <h2 className="text-xl">Sports:{college.events.length} </h2>
+              <h2 className="text-xl">
+                Events: {college.events[0].name} ,{college.events[1].name}
+              </h2>
+              <h2 className="text-xl ">
+                Sports: {college.sports[0].category} ,
+                {college.sports[1].category}
+              </h2>
 
               <div className="text-end mb-2 mr-2 ">
                 <Link to={`/college-details/${college._id}`}>

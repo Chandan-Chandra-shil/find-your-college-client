@@ -112,7 +112,7 @@ const Login = () => {
               </label>
             </div>
             <div className="form-control mt-6">
-              <input type="submit" className="btn btn-primary" value="Login" />
+              <input type="submit" className="mt-5 hover:border-b-4 hover:border-green-500 rounded-md font-semibold hover:text-white bg-red-500 text-white hover:bg-red-600   px-8 py-1" value="Login" />
             </div>
             <div className="text-center">
               <p>

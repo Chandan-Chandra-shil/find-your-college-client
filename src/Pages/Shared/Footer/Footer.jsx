@@ -25,7 +25,6 @@ const Footer = () => {
           <li className="list-none">
             <Link to="/">Home</Link>
           </li>
-
           <li className="list-none">
             <Link to="/colleges">Colleges</Link>
           </li>

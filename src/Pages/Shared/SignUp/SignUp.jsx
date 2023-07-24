@@ -120,7 +120,7 @@ const SignUp = () => {
             <div className="form-control mt-6">
               <input
                 type="submit"
-                className="btn btn-primary"
+                className="mt-5 hover:border-b-4 hover:border-green-500 rounded-md font-semibold hover:text-white bg-red-500 text-white hover:bg-red-600   px-8 py-1"
                 value="Sing Up"
               />
             </div>
