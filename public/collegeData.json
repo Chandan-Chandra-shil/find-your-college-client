@@ -10,7 +10,7 @@
         "name": "Annual College Fest",
         "date": "September 25, 2023",
         "theme": "Celebrating Diversity",
-        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students' talents and cultural backgrounds."
+        "description": "Join us for a day filled with music, dance, art exhibitions, and cultural performances. Experience the vibrant diversity of our students'."
       },
       {
         "name": "Tech Expo",
@@ -26,7 +26,7 @@
       "Tennis",
       "Cricket"
     ],
-    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping scientific discoveries and technological advancements over the decades.",
+    "researchHistory": "Established in 1950, ABC University boasts a rich history of pioneering research in Physics and Mathematics. Our institution has been a driving force in shaping  discoveries and over the decades.",
     "sports": [
       {
         "category": "Football",
@@ -39,25 +39,9 @@
         "teamName": "ABC Eagles",
         "captain": "Jane Smith",
         "achievements": "Ranked among the top three teams in the National College Basketball League, our basketball team showcases exceptional skill, sportsmanship, and determination."
-      },
-      {
-        "category": "Swimming",
-        "teamName": "ABC Sharks",
-        "captain": "Mike Johnson",
-        "achievements": "Our swimming team has made a splash in the state-level competitions, holding records in multiple events. Their commitment to excellence and hard work is evident in their achievements."
-      },
-      {
-        "category": "Tennis",
-        "teamName": "ABC Aces",
-        "captain": "Emily Williams",
-        "achievements": "The champions of the University Tennis Tournament for three consecutive years, our tennis team exemplifies finesse, technique, and a winning spirit."
-      },
-      {
-        "category": "Cricket",
-        "teamName": "ABC Warriors",
-        "captain": "David Anderson",
-        "achievements": "Our cricket team's achievements on the pitch are remarkable, and their sportsmanship sets a shining example for the cricketing community."
       }
+     
+     
     ]
   },
   {
