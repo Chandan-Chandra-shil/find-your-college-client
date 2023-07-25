@@ -74,7 +74,7 @@ const SignUp = () => {
               </label>
               <input
                 type="email"
-                  name="email"
+                name="email"
                 placeholder="email"
                 className="input input-bordered"
               />
@@ -111,16 +111,12 @@ const SignUp = () => {
                 placeholder="password"
                 className="input input-bordered"
               />
-              <label className="label">
-                
-                 show error
-              
-              </label>
+              <label className="label">show error</label>
             </div>
             <div className="form-control mt-6">
               <input
                 type="submit"
-                className="mt-5 hover:border-b-4 hover:border-green-500 rounded-md font-semibold hover:text-white bg-red-500 text-white hover:bg-red-600   px-8 py-1"
+                className="bg-green-600 hover:bg-green-700   text-white border-b-4 border-red-500 rounded-md font-semibold sha border px-8 py-2"
                 value="Sing Up"
               />
             </div>

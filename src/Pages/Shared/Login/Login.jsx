@@ -5,7 +5,7 @@ import { useContext, useRef } from "react";
 import { AuthContext } from "../../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 const Login = () => {
-  const { logIn, resetPassword } = useContext(AuthContext);
+  const { logIn, resetPassword, loginWithGoogle } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
   const emailRef = useRef();
@@ -70,9 +70,21 @@ const Login = () => {
         });
       });
   };
+const handleGoogleLogin = () => {
+  loginWithGoogle()
+    .then((result) => {
+      const loggedUser = result.user;
+      console.log(loggedUser);
+      navigate(from, { replace: true });
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
+
 
   return (
-    <div className="md:mt-36 mt-0">
+    <div className="md:my-36 mt-0 ">
       <div className=" md:flex ">
         <div className=" md:w-1/2">
           <Lottie className="" animationData={loginImage} loop={true} />
@@ -112,12 +124,25 @@ const Login = () => {
               </label>
             </div>
             <div className="form-control mt-6">
-              <input type="submit" className="mt-5 hover:border-b-4 hover:border-green-500 rounded-md font-semibold hover:text-white bg-red-500 text-white hover:bg-red-600   px-8 py-1" value="Login" />
+              <input
+                type="submit"
+                className="bg-green-600 hover:bg-green-700   text-white border-b-4 border-red-500 rounded-md font-semibold sha border px-8 py-2"
+                value="Login"
+              />
+            </div>
+            <div className="divider"></div>
+            <div className="form-control mt-6">
+              <button
+                onClick={handleGoogleLogin}
+                className=" hover:bg-green-700 hover:text-white border-b-4 border-red-500 rounded-md font-semibold sha border px-8 py-2"
+              >
+                Login With Google
+              </button>
             </div>
             <div className="text-center">
               <p>
-                Find Your College New?
-                <Link className="text-green-500" to="/singUp">
+                Don't have an account?
+                <Link className="text-green-500 ms-1" to="/singUp">
                   Sing Up
                 </Link>
               </p>
