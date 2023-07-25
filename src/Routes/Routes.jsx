@@ -9,6 +9,7 @@ import SignUp from "../Pages/Shared/SignUp/SignUp";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Login from "../Pages/Shared/Login/Login";
 import CollegeDetails from "../Pages/Home/Home/CollegeCard/CollegeDetails/CollegeDetails";
+import PrivateRoute from "./PrivateRoute";
 
 export const route = createBrowserRouter([
   {
@@ -30,7 +31,11 @@ export const route = createBrowserRouter([
       },
       {
         path: "/my-college",
-        element: <MyCollege />,
+        element: (
+          <PrivateRoute>
+            <MyCollege />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/login",
@@ -42,7 +47,11 @@ export const route = createBrowserRouter([
       },
       {
         path: "/college-details/:id",
-        element: <CollegeDetails />,
+        element: (
+          <PrivateRoute>
+            <CollegeDetails />
+          </PrivateRoute>
+        ),
         loader: ({ params }) =>
           fetch(
             `https://find-your-college-server-chandan-chandra-shil.vercel.app/college-details/${params.id}`

@@ -55,13 +55,11 @@ const Navbar = () => {
       </Link>
       {user ? (
         <>
-          <Link
-           
-            className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"
+          <Link className="block font-semibold text-white hover:text-green-200 transition duration-300 my-2"></Link>
+          <button
+            onClick={handleLogOut}
+            className=" hover:border-b-4 hover:border-green-500 rounded-md font-semibold hover:text-white bg-red-500 text-white hover:bg-red-600   px-8 py-1"
           >
-          
-          </Link>
-          <button onClick={handleLogOut} className="btn btn-outline btn-info">
             Log out
           </button>
         </>
