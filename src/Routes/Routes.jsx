@@ -44,7 +44,9 @@ export const route = createBrowserRouter([
         path: "/college-details/:id",
         element: <CollegeDetails />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/college-details/${params.id}`),
+          fetch(
+            `https://find-your-college-server-chandan-chandra-shil.vercel.app/college-details/${params.id}`
+          ),
       },
     ],
   },

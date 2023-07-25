@@ -62,13 +62,16 @@ const Admission = () => {
     };
     console.log("hello", admissionInfo);
 
-    fetch("http://localhost:5000/admission-data", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body:JSON.stringify(admissionInfo),
-    })
+    fetch(
+      "https://find-your-college-server-chandan-chandra-shil.vercel.app/admission-data",
+      {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(admissionInfo),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         if (data.acknowledged === true) {
@@ -110,7 +113,7 @@ const Admission = () => {
             <form onSubmit={handleAdmission}>
               <div className=" p-3 my-3 rounded ">
                 <h1 className="text-2xl font-bold text-black text-center">
-                 ----- Admission Form -----
+                  ----- Admission Form -----
                 </h1>
               </div>
               <div className="grid md:grid-cols-2 grid-cols-1 gap-4">

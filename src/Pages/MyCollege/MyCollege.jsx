@@ -1,16 +1,17 @@
-import  { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 const MyCollege = () => {
-   const [admissionData, setAdmissionData] = useState([]);
- 
-   useEffect(() => {
-     
-     fetch("http://localhost:5000/admission-data")
-       .then((res) => res.json())
-       .then((data) => {
-         setAdmissionData(data);
-       });
-   }, []);
+  const [admissionData, setAdmissionData] = useState([]);
+
+  useEffect(() => {
+    fetch(
+      "https://find-your-college-server-chandan-chandra-shil.vercel.app/admission-data"
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        setAdmissionData(data);
+      });
+  }, []);
   return (
     <div className="h-[80vh] flex justify-center items-center ">
       {admissionData.map((item) => (
@@ -29,7 +30,6 @@ const MyCollege = () => {
             <p className="card-title"> {item.email}</p>
             <p className="card-title">Address : {item.address}</p>
             <p className="card-title">Date of Birth : {item.dob}</p>
-            
           </div>
         </div>
       ))}

@@ -5,7 +5,9 @@ const Colleges = () => {
   const [colleges, setColleges] = useState([]);
   console.log("text...", colleges);
   useEffect(() => {
-    fetch("http://localhost:5000/colleges")
+    fetch(
+      "https://find-your-college-server-chandan-chandra-shil.vercel.app/colleges"
+    )
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);
